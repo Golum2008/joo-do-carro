@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" href="BANDEIRINHA.png" type="image/x-png">
+  <title>Speed Racer</title>
+  <!-- Lib -->
+  <script src="./lib/p5.min.js"></script>
+  <script src="./lib/p5.dom.min.js"></script>
+  <script src="./lib/p5.sound.min.js"></script>
+  <script src="./lib/p5.play.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+  <script>
+    //dados do banco
+    const firebaseConfig = {
+
+      apiKey: "AIzaSyDi_daM0AJUR7QIVRWgAZHj10jiiGDhfkI",
+
+      authDomain: "jogo-do-carro-2311.firebaseapp.com",
+
+      projectId: "jogo-do-carro-2311",
+
+      storageBucket: "jogo-do-carro-2311.appspot.com",
+
+      messagingSenderId: "777784213451",
+
+      appId: "1:777784213451:web:95697192a2c046cd9a804e"
+
+    };
+
+
+
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+</head>
+
+<body>
+  <script src="./js/Game.js"></script>
+  <script src="./js/Form.js"></script>
+  <script src="./js/Player.js"></script>
+  <script src="./sketch.js"></script>
+</body>
+
+</html>
